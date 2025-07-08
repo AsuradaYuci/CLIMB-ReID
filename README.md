@@ -1,5 +1,4 @@
-# CLIMB-ReID
-CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification（AAAI2025）
+# CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification（AAAI2025）
 <div align=center>
 <img width="100%" src="./assets/logo.png">
 </div>
