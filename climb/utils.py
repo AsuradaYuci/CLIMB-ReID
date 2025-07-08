@@ -95,7 +95,7 @@ def compute_cluster_centroids(features, labels):
         if len(temp.shape) == 1:
             temp = temp.reshape(1, -1)
         centers[i,:] = temp.mean(0)
-    return F.normalize(centers, dim=1)
+    return F.normalize(centers.repeat(2, 1), dim=1)
 
 def mkdir_if_missing(directory):
     if not osp.exists(directory):
