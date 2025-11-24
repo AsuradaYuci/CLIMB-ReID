@@ -77,6 +77,12 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10
 ```
 pip install -r requirements.txt
 
+For “selective_scan”：
+
+git clone https://github.com/MzeroMiko/VMamba.git
+cd VMamba
+pip install -r requirements.txt
+cd kernels/selective_scan && pip install .
 ```
 * Prepare Datasets
 ```
